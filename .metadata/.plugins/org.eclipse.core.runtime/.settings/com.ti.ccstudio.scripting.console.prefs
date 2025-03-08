@@ -1,0 +1,2 @@
+CommandHistory=help\nhelp restart\nvar dS \= Debug.getActiveDebugContext();\nlaunch\nhelp \nclear\ncls\nscript \= ScriptingEnvironment.instance();\ndebugServer \= script.getServer("DebugServer.1")\ndebugServer \= setConfig("AM62.ccxml")\ndebugServersetConfig("AM62.ccxml")\ndebugServer.setConfig("AM62.ccxml")\ndebugSession \= debugServer.openSession("*", "Cortex_A53_0")\n
+eclipse.preferences.version=1

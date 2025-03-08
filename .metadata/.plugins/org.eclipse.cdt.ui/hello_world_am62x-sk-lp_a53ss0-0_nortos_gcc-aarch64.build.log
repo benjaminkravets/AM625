@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project hello_world_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'hello_world_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out' is up to date.
+
+**** Build Finished ****

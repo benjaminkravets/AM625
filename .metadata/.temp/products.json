@@ -1,0 +1,27 @@
+[
+  {
+    "name": "MCU_PLUS_SDK_AM62x",
+    "displayName": "MCU+ SDK for AM62x",
+    "version": "10.01.00",
+    "path": "C:\\ti\\mcu_plus_sdk_am62x_10_01_00_33\\.metadata\\product.json",
+    "contexts": {
+      "AM62x": [
+        "m4fss0-0",
+        "r5fss0-0",
+        "a53ss0-0",
+        "a53ss0-1",
+        "a53ss1-0",
+        "a53ss1-1"
+      ],
+      "AM62SIP": [
+        "m4fss0-0",
+        "r5fss0-0",
+        "a53ss0-0",
+        "a53ss0-1",
+        "a53ss1-0",
+        "a53ss1-1"
+      ]
+    },
+    "documentationPath": "../docs"
+  }
+]
