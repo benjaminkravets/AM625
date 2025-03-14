@@ -2329,3 +2329,528 @@ gmake[1]: 'hello_world_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out' is up to dat
 gmake[1]: 'hello_world_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out' is up to date.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project hello_world_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'hello_world_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project hello_world_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'hello_world_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project hello_world_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'hello_world_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../example.syscfg"
+Invoking: SysConfig
+"C:/ti/sysconfig_1.20.0/sysconfig_cli.bat" --script "C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/example.syscfg" -o "syscfg" -s "C:/ti/mcu_plus_sdk_am62x_10_01_00_33/.metadata/product.json" --context "a53ss0-0" --part Default --package AMC --compiler gcc
+Running script...
+Validating...
+Generating Code (example.syscfg)...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_dpl_config.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_dpl_config.h...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_drivers_config.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_drivers_config.h...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_drivers_open_close.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_drivers_open_close.h...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_pinmux_config.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_power_clock_config.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_board_config.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_board_config.h...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_board_open_close.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_board_open_close.h...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_enet_config.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_enet_config.h...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_enet_open_close.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_enet_open_close.h...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_enet_soc.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_enet_lwipif.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_enet_lwipif.h...
+Finished building: "../example.syscfg"
+ 
+Building file: "syscfg/ti_enet_open_close.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_enet_open_close.d_raw" -MT"syscfg/ti_enet_open_close.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_enet_open_close.o" "syscfg/ti_enet_open_close.c"
+Finished building: "syscfg/ti_enet_open_close.c"
+ 
+Building file: "../dpl_demo.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"dpl_demo.d_raw" -MT"dpl_demo.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"dpl_demo.o" "../dpl_demo.c"
+Finished building: "../dpl_demo.c"
+ 
+Building file: "syscfg/ti_dpl_config.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_dpl_config.d_raw" -MT"syscfg/ti_dpl_config.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_dpl_config.o" "syscfg/ti_dpl_config.c"
+Finished building: "syscfg/ti_dpl_config.c"
+ 
+Building file: "syscfg/ti_drivers_config.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_drivers_config.d_raw" -MT"syscfg/ti_drivers_config.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_drivers_config.o" "syscfg/ti_drivers_config.c"
+Finished building: "syscfg/ti_drivers_config.c"
+ 
+Building file: "syscfg/ti_drivers_open_close.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_drivers_open_close.d_raw" -MT"syscfg/ti_drivers_open_close.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_drivers_open_close.o" "syscfg/ti_drivers_open_close.c"
+Finished building: "syscfg/ti_drivers_open_close.c"
+ 
+Building file: "syscfg/ti_pinmux_config.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_pinmux_config.d_raw" -MT"syscfg/ti_pinmux_config.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_pinmux_config.o" "syscfg/ti_pinmux_config.c"
+Finished building: "syscfg/ti_pinmux_config.c"
+ 
+Building file: "syscfg/ti_power_clock_config.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_power_clock_config.d_raw" -MT"syscfg/ti_power_clock_config.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_power_clock_config.o" "syscfg/ti_power_clock_config.c"
+Finished building: "syscfg/ti_power_clock_config.c"
+ 
+Building file: "syscfg/ti_board_config.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_board_config.d_raw" -MT"syscfg/ti_board_config.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_board_config.o" "syscfg/ti_board_config.c"
+Finished building: "syscfg/ti_board_config.c"
+ 
+Building file: "syscfg/ti_board_open_close.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_board_open_close.d_raw" -MT"syscfg/ti_board_open_close.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_board_open_close.o" "syscfg/ti_board_open_close.c"
+Finished building: "syscfg/ti_board_open_close.c"
+ 
+Building file: "syscfg/ti_enet_config.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_enet_config.d_raw" -MT"syscfg/ti_enet_config.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_enet_config.o" "syscfg/ti_enet_config.c"
+Finished building: "syscfg/ti_enet_config.c"
+ 
+Building file: "syscfg/ti_enet_soc.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_enet_soc.d_raw" -MT"syscfg/ti_enet_soc.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_enet_soc.o" "syscfg/ti_enet_soc.c"
+Finished building: "syscfg/ti_enet_soc.c"
+ 
+Building file: "syscfg/ti_enet_lwipif.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_enet_lwipif.d_raw" -MT"syscfg/ti_enet_lwipif.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_enet_lwipif.o" "syscfg/ti_enet_lwipif.c"
+Finished building: "syscfg/ti_enet_lwipif.c"
+ 
+Building file: "../main.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"main.d_raw" -MT"main.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"main.o" "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out"
+Invoking: GNU Linker
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -mcpu=cortex-a53+fp+simd -Wl,-Map,"dpl_demo.Debug.map" -static -Wl,--gc-sections -L"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source/kernel/nortos/lib" -L"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source/drivers/lib" -L"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source/board/lib" -L"/lib" -Wl,--build-id=none -o"dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out" "./dpl_demo.o" "./syscfg/ti_dpl_config.o" "./syscfg/ti_drivers_config.o" "./syscfg/ti_drivers_open_close.o" "./syscfg/ti_pinmux_config.o" "./syscfg/ti_power_clock_config.o" "./syscfg/ti_board_config.o" "./syscfg/ti_board_open_close.o" "./syscfg/ti_enet_config.o" "./syscfg/ti_enet_open_close.o" "./syscfg/ti_enet_soc.o" "./syscfg/ti_enet_lwipif.o" "./main.o" -Wl,-T"../linker.cmd"  -Wl,--start-group -lstdc++ -lgcc -lm -lrdimon -l:nortos.am62x.a53.gcc-aarch64.debug.lib -l:drivers.am62x.a53.gcc-aarch64.debug.lib -lc -Wl,--end-group 
+Finished building target: "dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out"
+ 
+C:/ti/ccs1281/ccs/utils/bin/gmake -C C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 -f makefile_ccs_bootimage_gen OUTNAME=dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 PROFILE=Debug MCU_PLUS_SDK_PATH=C:/ti/mcu_plus_sdk_am62x_10_01_00_33 CG_TOOL_ROOT=C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf CCS_INSTALL_DIR=C:\ti\ccs1281\ccs CCS_IDE_MODE=desktop
+ Boot image: am62x:a53ss0-0:nortos:gcc-aarch64 C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage  ...
+C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-ld -b binary -A aarch64 --oformat elf64-littleaarch64 --section-start=.data=0x80000000 -e 0x80000000 C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source/atf/lib/soc/am62x/bl31.a53ss0-0.debug.bin -o bl31.a53ss0-0.debug.out
+C:\ti\ccs1281\ccs/tools/node/node C:/ti/mcu_plus_sdk_am62x_10_01_00_33/tools/boot/out2rprc/elf2rprc.js bl31.a53ss0-0.debug.out 0x0A010021>> Debug/temp_stdout_Debug.txt
+C:\ti\ccs1281\ccs/tools/node/node C:/ti/mcu_plus_sdk_am62x_10_01_00_33/tools/boot/out2rprc/elf2rprc.js Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out 0x0A010021>> Debug/temp_stdout_Debug.txt
+C:\ti\ccs1281\ccs/utils/cygwin/cp dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc
+C:\ti\ccs1281\ccs/utils/cygwin/cp C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc_tmp
+C:\ti\ccs1281\ccs/utils/cygwin/rm -f C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc
+C:/ti/mcu_plus_sdk_am62x_10_01_00_33/tools/boot/xipGen/xipGen.exe -i C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc_tmp -o C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc -x C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc_xip --flash-start-addr 0x60000000 -v > Debug/temp_stdout_Debug.txt
+C:\ti\ccs1281\ccs/tools/node/node C:/ti/mcu_plus_sdk_am62x_10_01_00_33/tools/boot/multicoreImageGen/multicoreImageGen.js --devID 55 --out C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage bl31.a53ss0-0.debug.rprc@0 C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc@21  >> Debug/temp_stdout_Debug.txt
+C:\ti\ccs1281\ccs/tools/node/node C:/ti/mcu_plus_sdk_am62x_10_01_00_33/tools/boot/multicoreImageGen/multicoreImageGen.js --devID 55 --out C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage_xip C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc_xip@0  >> Debug/temp_stdout_Debug.txt
+python C:/ti/mcu_plus_sdk_am62x_10_01_00_33/tools/boot/signing/appimage_x509_cert_gen.py --bin C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage --authtype 0  --loadaddr 84000000 --key C:/ti/mcu_plus_sdk_am62x_10_01_00_33/tools/boot/signing/app_degenerateKey.pem --output C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage.hs_fs --keyversion 1.5
+Generating certificate for C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage ...
+C:\ti\ccs1281\ccs/utils/cygwin/rm -f bl31.a53ss0-0.debug.out
+C:\ti\ccs1281\ccs/utils/cygwin/rm -f bl31.a53ss0-0.debug.rprc
+C:\ti\ccs1281\ccs/utils/cygwin/rm -f C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc_tmp
+ Boot image: am62x:a53ss0-0:nortos:gcc-aarch64 C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage Done !!!
+ .
+ Boot image: am62x:a53ss0-0:nortos:gcc-aarch64 C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage.hs_fs Done !!!
+ .
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project hello_world_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'hello_world_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project test ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../hello.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" --code_state=32 -me --include_path="C:/Users/bakra/Desktop/AM625/test" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="hello.d_raw"  "../hello.c"
+Finished building: "../hello.c"
+ 
+Building target: "test.out"
+Invoking: Arm Linker
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" --code_state=32 -me -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"test.map" -i"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="test_linkInfo.xml" --rom_model -o "test.out" "./hello.obj"  -llibc.a 
+<Linking>
+warning #10366-D: automatic library build: using library "C:\ti\ccs1281\ccs\tools\compiler\ti-cgt-arm_20.2.7.LTS\lib\rtsv4_A_le_eabi.lib" for the first time, so it must be built.  This may take a few minutes.
+Creating library c:/users/bakra/appdata/local/temp/ti_mkl~1/rtsv4_a_le_eabi.lib
+warning #10247-D: creating output section ".text" without a SECTIONS specification
+warning #10247-D: creating output section ".const" without a SECTIONS specification
+warning #10247-D: creating output section ".data" without a SECTIONS specification
+warning #10247-D: creating output section ".bss" without a SECTIONS specification
+warning #10247-D: creating output section ".cinit" without a SECTIONS specification
+warning #10247-D: creating output section ".sysmem" without a SECTIONS specification
+warning #10210-D: creating ".stack" section with default size of 0x800; use the -stack option to change the default size
+warning #10210-D: creating ".sysmem" section with default size of 0x800; use the -heap option to change the default size
+Finished building target: "test.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project hello_world_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'hello_world_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project test ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'test.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project hello_world_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'hello_world_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project test ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'test.out' is up to date.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 clean -O 
+ 
+DEL /F  "syscfg\ti_dpl_config.h" "syscfg\ti_drivers_config.h" "syscfg\ti_drivers_open_close.h" "syscfg\ti_board_config.h" "syscfg\ti_board_open_close.h" "syscfg\ti_enet_config.h" "syscfg\ti_enet_open_close.h" "syscfg\ti_enet_lwipif.h"  "syscfg\ti_dpl_config.c" "syscfg\ti_drivers_config.c" "syscfg\ti_drivers_open_close.c" "syscfg\ti_pinmux_config.c" "syscfg\ti_power_clock_config.c" "syscfg\ti_board_config.c" "syscfg\ti_board_open_close.c" "syscfg\ti_enet_config.c" "syscfg\ti_enet_open_close.c" "syscfg\ti_enet_soc.c" "syscfg\ti_enet_lwipif.c"  "dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out" 
+DEL /F "dpl_demo.o" "syscfg\ti_dpl_config.o" "syscfg\ti_drivers_config.o" "syscfg\ti_drivers_open_close.o" "syscfg\ti_pinmux_config.o" "syscfg\ti_power_clock_config.o" "syscfg\ti_board_config.o" "syscfg\ti_board_open_close.o" "syscfg\ti_enet_config.o" "syscfg\ti_enet_open_close.o" "syscfg\ti_enet_soc.o" "syscfg\ti_enet_lwipif.o" "main.o" 
+DEL /F "dpl_demo.d" "syscfg\ti_dpl_config.d" "syscfg\ti_drivers_config.d" "syscfg\ti_drivers_open_close.d" "syscfg\ti_pinmux_config.d" "syscfg\ti_power_clock_config.d" "syscfg\ti_board_config.d" "syscfg\ti_board_open_close.d" "syscfg\ti_enet_config.d" "syscfg\ti_enet_open_close.d" "syscfg\ti_enet_soc.d" "syscfg\ti_enet_lwipif.d" "main.d" 
+RMDIR /S/Q  "syscfg" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../example.syscfg"
+Invoking: SysConfig
+"C:/ti/sysconfig_1.20.0/sysconfig_cli.bat" --script "C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/example.syscfg" -o "syscfg" -s "C:/ti/mcu_plus_sdk_am62x_10_01_00_33/.metadata/product.json" --context "a53ss0-0" --part Default --package AMC --compiler gcc
+Running script...
+Validating...
+Generating Code (example.syscfg)...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_dpl_config.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_dpl_config.h...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_drivers_config.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_drivers_config.h...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_drivers_open_close.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_drivers_open_close.h...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_pinmux_config.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_power_clock_config.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_board_config.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_board_config.h...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_board_open_close.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_board_open_close.h...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_enet_config.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_enet_config.h...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_enet_open_close.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_enet_open_close.h...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_enet_soc.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_enet_lwipif.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_enet_lwipif.h...
+Finished building: "../example.syscfg"
+ 
+Building file: "syscfg/ti_board_config.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_board_config.d_raw" -MT"syscfg/ti_board_config.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_board_config.o" "syscfg/ti_board_config.c"
+Finished building: "syscfg/ti_board_config.c"
+ 
+Building file: "../dpl_demo.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"dpl_demo.d_raw" -MT"dpl_demo.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"dpl_demo.o" "../dpl_demo.c"
+Finished building: "../dpl_demo.c"
+ 
+Building file: "syscfg/ti_dpl_config.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_dpl_config.d_raw" -MT"syscfg/ti_dpl_config.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_dpl_config.o" "syscfg/ti_dpl_config.c"
+Finished building: "syscfg/ti_dpl_config.c"
+ 
+Building file: "syscfg/ti_drivers_config.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_drivers_config.d_raw" -MT"syscfg/ti_drivers_config.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_drivers_config.o" "syscfg/ti_drivers_config.c"
+Finished building: "syscfg/ti_drivers_config.c"
+ 
+Building file: "syscfg/ti_drivers_open_close.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_drivers_open_close.d_raw" -MT"syscfg/ti_drivers_open_close.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_drivers_open_close.o" "syscfg/ti_drivers_open_close.c"
+Finished building: "syscfg/ti_drivers_open_close.c"
+ 
+Building file: "syscfg/ti_pinmux_config.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_pinmux_config.d_raw" -MT"syscfg/ti_pinmux_config.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_pinmux_config.o" "syscfg/ti_pinmux_config.c"
+Finished building: "syscfg/ti_pinmux_config.c"
+ 
+Building file: "syscfg/ti_power_clock_config.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_power_clock_config.d_raw" -MT"syscfg/ti_power_clock_config.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_power_clock_config.o" "syscfg/ti_power_clock_config.c"
+Finished building: "syscfg/ti_power_clock_config.c"
+ 
+Building file: "syscfg/ti_board_open_close.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_board_open_close.d_raw" -MT"syscfg/ti_board_open_close.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_board_open_close.o" "syscfg/ti_board_open_close.c"
+Finished building: "syscfg/ti_board_open_close.c"
+ 
+Building file: "syscfg/ti_enet_config.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_enet_config.d_raw" -MT"syscfg/ti_enet_config.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_enet_config.o" "syscfg/ti_enet_config.c"
+Finished building: "syscfg/ti_enet_config.c"
+ 
+Building file: "syscfg/ti_enet_open_close.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_enet_open_close.d_raw" -MT"syscfg/ti_enet_open_close.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_enet_open_close.o" "syscfg/ti_enet_open_close.c"
+Finished building: "syscfg/ti_enet_open_close.c"
+ 
+Building file: "syscfg/ti_enet_soc.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_enet_soc.d_raw" -MT"syscfg/ti_enet_soc.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_enet_soc.o" "syscfg/ti_enet_soc.c"
+Finished building: "syscfg/ti_enet_soc.c"
+ 
+Building file: "syscfg/ti_enet_lwipif.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_enet_lwipif.d_raw" -MT"syscfg/ti_enet_lwipif.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_enet_lwipif.o" "syscfg/ti_enet_lwipif.c"
+Finished building: "syscfg/ti_enet_lwipif.c"
+ 
+Building file: "../main.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"main.d_raw" -MT"main.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"main.o" "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out"
+Invoking: GNU Linker
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -mcpu=cortex-a53+fp+simd -Wl,-Map,"dpl_demo.Debug.map" -static -Wl,--gc-sections -L"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source/kernel/nortos/lib" -L"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source/drivers/lib" -L"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source/board/lib" -L"/lib" -Wl,--build-id=none -o"dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out" "./dpl_demo.o" "./syscfg/ti_dpl_config.o" "./syscfg/ti_drivers_config.o" "./syscfg/ti_drivers_open_close.o" "./syscfg/ti_pinmux_config.o" "./syscfg/ti_power_clock_config.o" "./syscfg/ti_board_config.o" "./syscfg/ti_board_open_close.o" "./syscfg/ti_enet_config.o" "./syscfg/ti_enet_open_close.o" "./syscfg/ti_enet_soc.o" "./syscfg/ti_enet_lwipif.o" "./main.o" -Wl,-T"../linker.cmd"  -Wl,--start-group -lstdc++ -lgcc -lm -lrdimon -l:nortos.am62x.a53.gcc-aarch64.debug.lib -l:drivers.am62x.a53.gcc-aarch64.debug.lib -lc -Wl,--end-group 
+Finished building target: "dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out"
+ 
+C:/ti/ccs1281/ccs/utils/bin/gmake -C C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 -f makefile_ccs_bootimage_gen OUTNAME=dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 PROFILE=Debug MCU_PLUS_SDK_PATH=C:/ti/mcu_plus_sdk_am62x_10_01_00_33 CG_TOOL_ROOT=C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf CCS_INSTALL_DIR=C:\ti\ccs1281\ccs CCS_IDE_MODE=desktop
+ Boot image: am62x:a53ss0-0:nortos:gcc-aarch64 C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage  ...
+C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-ld -b binary -A aarch64 --oformat elf64-littleaarch64 --section-start=.data=0x80000000 -e 0x80000000 C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source/atf/lib/soc/am62x/bl31.a53ss0-0.debug.bin -o bl31.a53ss0-0.debug.out
+C:\ti\ccs1281\ccs/tools/node/node C:/ti/mcu_plus_sdk_am62x_10_01_00_33/tools/boot/out2rprc/elf2rprc.js bl31.a53ss0-0.debug.out 0x0A010021>> Debug/temp_stdout_Debug.txt
+C:\ti\ccs1281\ccs/tools/node/node C:/ti/mcu_plus_sdk_am62x_10_01_00_33/tools/boot/out2rprc/elf2rprc.js Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out 0x0A010021>> Debug/temp_stdout_Debug.txt
+C:\ti\ccs1281\ccs/utils/cygwin/cp dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc
+C:\ti\ccs1281\ccs/utils/cygwin/cp C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc_tmp
+C:\ti\ccs1281\ccs/utils/cygwin/rm -f C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc
+C:/ti/mcu_plus_sdk_am62x_10_01_00_33/tools/boot/xipGen/xipGen.exe -i C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc_tmp -o C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc -x C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc_xip --flash-start-addr 0x60000000 -v > Debug/temp_stdout_Debug.txt
+C:\ti\ccs1281\ccs/tools/node/node C:/ti/mcu_plus_sdk_am62x_10_01_00_33/tools/boot/multicoreImageGen/multicoreImageGen.js --devID 55 --out C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage bl31.a53ss0-0.debug.rprc@0 C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc@21  >> Debug/temp_stdout_Debug.txt
+C:\ti\ccs1281\ccs/tools/node/node C:/ti/mcu_plus_sdk_am62x_10_01_00_33/tools/boot/multicoreImageGen/multicoreImageGen.js --devID 55 --out C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage_xip C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc_xip@0  >> Debug/temp_stdout_Debug.txt
+python C:/ti/mcu_plus_sdk_am62x_10_01_00_33/tools/boot/signing/appimage_x509_cert_gen.py --bin C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage --authtype 0  --loadaddr 84000000 --key C:/ti/mcu_plus_sdk_am62x_10_01_00_33/tools/boot/signing/app_degenerateKey.pem --output C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage.hs_fs --keyversion 1.5
+Generating certificate for C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage ...
+C:\ti\ccs1281\ccs/utils/cygwin/rm -f bl31.a53ss0-0.debug.out
+C:\ti\ccs1281\ccs/utils/cygwin/rm -f bl31.a53ss0-0.debug.rprc
+C:\ti\ccs1281\ccs/utils/cygwin/rm -f C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc_tmp
+ Boot image: am62x:a53ss0-0:nortos:gcc-aarch64 C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage Done !!!
+ .
+ Boot image: am62x:a53ss0-0:nortos:gcc-aarch64 C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage.hs_fs Done !!!
+ .
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 clean -O 
+ 
+DEL /F  "syscfg\ti_dpl_config.h" "syscfg\ti_drivers_config.h" "syscfg\ti_drivers_open_close.h" "syscfg\ti_board_config.h" "syscfg\ti_board_open_close.h" "syscfg\ti_enet_config.h" "syscfg\ti_enet_open_close.h" "syscfg\ti_enet_lwipif.h"  "syscfg\ti_dpl_config.c" "syscfg\ti_drivers_config.c" "syscfg\ti_drivers_open_close.c" "syscfg\ti_pinmux_config.c" "syscfg\ti_power_clock_config.c" "syscfg\ti_board_config.c" "syscfg\ti_board_open_close.c" "syscfg\ti_enet_config.c" "syscfg\ti_enet_open_close.c" "syscfg\ti_enet_soc.c" "syscfg\ti_enet_lwipif.c"  "dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out" 
+DEL /F "dpl_demo.o" "syscfg\ti_dpl_config.o" "syscfg\ti_drivers_config.o" "syscfg\ti_drivers_open_close.o" "syscfg\ti_pinmux_config.o" "syscfg\ti_power_clock_config.o" "syscfg\ti_board_config.o" "syscfg\ti_board_open_close.o" "syscfg\ti_enet_config.o" "syscfg\ti_enet_open_close.o" "syscfg\ti_enet_soc.o" "syscfg\ti_enet_lwipif.o" "main.o" 
+DEL /F "dpl_demo.d" "syscfg\ti_dpl_config.d" "syscfg\ti_drivers_config.d" "syscfg\ti_drivers_open_close.d" "syscfg\ti_pinmux_config.d" "syscfg\ti_power_clock_config.d" "syscfg\ti_board_config.d" "syscfg\ti_board_open_close.d" "syscfg\ti_enet_config.d" "syscfg\ti_enet_open_close.d" "syscfg\ti_enet_soc.d" "syscfg\ti_enet_lwipif.d" "main.d" 
+RMDIR /S/Q  "syscfg" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../example.syscfg"
+Invoking: SysConfig
+"C:/ti/sysconfig_1.20.0/sysconfig_cli.bat" --script "C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/example.syscfg" -o "syscfg" -s "C:/ti/mcu_plus_sdk_am62x_10_01_00_33/.metadata/product.json" --context "a53ss0-0" --part Default --package AMC --compiler gcc
+Running script...
+Validating...
+Generating Code (example.syscfg)...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_dpl_config.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_dpl_config.h...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_drivers_config.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_drivers_config.h...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_drivers_open_close.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_drivers_open_close.h...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_pinmux_config.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_power_clock_config.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_board_config.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_board_config.h...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_board_open_close.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_board_open_close.h...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_enet_config.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_enet_config.h...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_enet_open_close.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_enet_open_close.h...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_enet_soc.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_enet_lwipif.c...
+Writing C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64\Debug\syscfg\ti_enet_lwipif.h...
+Finished building: "../example.syscfg"
+ 
+Building file: "syscfg/ti_enet_config.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_enet_config.d_raw" -MT"syscfg/ti_enet_config.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_enet_config.o" "syscfg/ti_enet_config.c"
+Finished building: "syscfg/ti_enet_config.c"
+ 
+Building file: "syscfg/ti_enet_open_close.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_enet_open_close.d_raw" -MT"syscfg/ti_enet_open_close.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_enet_open_close.o" "syscfg/ti_enet_open_close.c"
+Finished building: "syscfg/ti_enet_open_close.c"
+ 
+Building file: "syscfg/ti_enet_soc.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_enet_soc.d_raw" -MT"syscfg/ti_enet_soc.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_enet_soc.o" "syscfg/ti_enet_soc.c"
+Finished building: "syscfg/ti_enet_soc.c"
+ 
+Building file: "syscfg/ti_enet_lwipif.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_enet_lwipif.d_raw" -MT"syscfg/ti_enet_lwipif.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_enet_lwipif.o" "syscfg/ti_enet_lwipif.c"
+Finished building: "syscfg/ti_enet_lwipif.c"
+ 
+Building file: "syscfg/ti_board_config.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_board_config.d_raw" -MT"syscfg/ti_board_config.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_board_config.o" "syscfg/ti_board_config.c"
+Finished building: "syscfg/ti_board_config.c"
+ 
+Building file: "../dpl_demo.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"dpl_demo.d_raw" -MT"dpl_demo.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"dpl_demo.o" "../dpl_demo.c"
+Finished building: "../dpl_demo.c"
+ 
+Building file: "syscfg/ti_dpl_config.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_dpl_config.d_raw" -MT"syscfg/ti_dpl_config.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_dpl_config.o" "syscfg/ti_dpl_config.c"
+Finished building: "syscfg/ti_dpl_config.c"
+ 
+Building file: "syscfg/ti_drivers_config.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_drivers_config.d_raw" -MT"syscfg/ti_drivers_config.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_drivers_config.o" "syscfg/ti_drivers_config.c"
+Finished building: "syscfg/ti_drivers_config.c"
+ 
+Building file: "syscfg/ti_drivers_open_close.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_drivers_open_close.d_raw" -MT"syscfg/ti_drivers_open_close.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_drivers_open_close.o" "syscfg/ti_drivers_open_close.c"
+Finished building: "syscfg/ti_drivers_open_close.c"
+ 
+Building file: "syscfg/ti_pinmux_config.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_pinmux_config.d_raw" -MT"syscfg/ti_pinmux_config.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_pinmux_config.o" "syscfg/ti_pinmux_config.c"
+Finished building: "syscfg/ti_pinmux_config.c"
+ 
+Building file: "syscfg/ti_power_clock_config.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_power_clock_config.d_raw" -MT"syscfg/ti_power_clock_config.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_power_clock_config.o" "syscfg/ti_power_clock_config.c"
+Finished building: "syscfg/ti_power_clock_config.c"
+ 
+Building file: "syscfg/ti_board_open_close.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"syscfg/ti_board_open_close.d_raw" -MT"syscfg/ti_board_open_close.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"syscfg/ti_board_open_close.o" "syscfg/ti_board_open_close.c"
+Finished building: "syscfg/ti_board_open_close.c"
+ 
+Building file: "../main.c"
+Invoking: GNU Compiler
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -c -mcpu=cortex-a53+fp+simd -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64" -I"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source" -I"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/aarch64-none-elf/include" -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mabi=lp64 -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -MMD -MP -MF"main.d_raw" -MT"main.o" -I"C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/syscfg"   -o"main.o" "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out"
+Invoking: GNU Linker
+"C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-gcc-9.2.1.exe" -DSOC_AM62X -DAMP_A53 -D_DEBUG_=1 -Og -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -Werror -mcmodel=large -mstrict-align -mfix-cortex-a53-835769 -mfix-cortex-a53-843419 -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-unused-but-set-variable -mcpu=cortex-a53+fp+simd -Wl,-Map,"dpl_demo.Debug.map" -static -Wl,--gc-sections -L"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source/kernel/nortos/lib" -L"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source/drivers/lib" -L"C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source/board/lib" -L"/lib" -Wl,--build-id=none -o"dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out" "./dpl_demo.o" "./syscfg/ti_dpl_config.o" "./syscfg/ti_drivers_config.o" "./syscfg/ti_drivers_open_close.o" "./syscfg/ti_pinmux_config.o" "./syscfg/ti_power_clock_config.o" "./syscfg/ti_board_config.o" "./syscfg/ti_board_open_close.o" "./syscfg/ti_enet_config.o" "./syscfg/ti_enet_open_close.o" "./syscfg/ti_enet_soc.o" "./syscfg/ti_enet_lwipif.o" "./main.o" -Wl,-T"../linker.cmd"  -Wl,--start-group -lstdc++ -lgcc -lm -lrdimon -l:nortos.am62x.a53.gcc-aarch64.debug.lib -l:drivers.am62x.a53.gcc-aarch64.debug.lib -lc -Wl,--end-group 
+Finished building target: "dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out"
+ 
+C:/ti/ccs1281/ccs/utils/bin/gmake -C C:\Users\bakra\Desktop\AM625\dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 -f makefile_ccs_bootimage_gen OUTNAME=dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64 PROFILE=Debug MCU_PLUS_SDK_PATH=C:/ti/mcu_plus_sdk_am62x_10_01_00_33 CG_TOOL_ROOT=C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf CCS_INSTALL_DIR=C:\ti\ccs1281\ccs CCS_IDE_MODE=desktop
+ Boot image: am62x:a53ss0-0:nortos:gcc-aarch64 C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage  ...
+C:/ti/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf/bin/aarch64-none-elf-ld -b binary -A aarch64 --oformat elf64-littleaarch64 --section-start=.data=0x80000000 -e 0x80000000 C:/ti/mcu_plus_sdk_am62x_10_01_00_33/source/atf/lib/soc/am62x/bl31.a53ss0-0.debug.bin -o bl31.a53ss0-0.debug.out
+C:\ti\ccs1281\ccs/tools/node/node C:/ti/mcu_plus_sdk_am62x_10_01_00_33/tools/boot/out2rprc/elf2rprc.js bl31.a53ss0-0.debug.out 0x0A010021>> Debug/temp_stdout_Debug.txt
+C:\ti\ccs1281\ccs/tools/node/node C:/ti/mcu_plus_sdk_am62x_10_01_00_33/tools/boot/out2rprc/elf2rprc.js Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.out 0x0A010021>> Debug/temp_stdout_Debug.txt
+C:\ti\ccs1281\ccs/utils/cygwin/cp dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc
+C:\ti\ccs1281\ccs/utils/cygwin/cp C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc_tmp
+C:\ti\ccs1281\ccs/utils/cygwin/rm -f C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc
+C:/ti/mcu_plus_sdk_am62x_10_01_00_33/tools/boot/xipGen/xipGen.exe -i C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc_tmp -o C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc -x C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc_xip --flash-start-addr 0x60000000 -v > Debug/temp_stdout_Debug.txt
+C:\ti\ccs1281\ccs/tools/node/node C:/ti/mcu_plus_sdk_am62x_10_01_00_33/tools/boot/multicoreImageGen/multicoreImageGen.js --devID 55 --out C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage bl31.a53ss0-0.debug.rprc@0 C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc@21  >> Debug/temp_stdout_Debug.txt
+C:\ti\ccs1281\ccs/tools/node/node C:/ti/mcu_plus_sdk_am62x_10_01_00_33/tools/boot/multicoreImageGen/multicoreImageGen.js --devID 55 --out C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage_xip C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc_xip@0  >> Debug/temp_stdout_Debug.txt
+python C:/ti/mcu_plus_sdk_am62x_10_01_00_33/tools/boot/signing/appimage_x509_cert_gen.py --bin C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage --authtype 0  --loadaddr 84000000 --key C:/ti/mcu_plus_sdk_am62x_10_01_00_33/tools/boot/signing/app_degenerateKey.pem --output C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage.hs_fs --keyversion 1.5
+Generating certificate for C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage ...
+C:\ti\ccs1281\ccs/utils/cygwin/rm -f bl31.a53ss0-0.debug.out
+C:\ti\ccs1281\ccs/utils/cygwin/rm -f bl31.a53ss0-0.debug.rprc
+C:\ti\ccs1281\ccs/utils/cygwin/rm -f C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.rprc_tmp
+ Boot image: am62x:a53ss0-0:nortos:gcc-aarch64 C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage Done !!!
+ .
+ Boot image: am62x:a53ss0-0:nortos:gcc-aarch64 C:/Users/bakra/Desktop/AM625/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/Debug/dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64.appimage.hs_fs Done !!!
+ .
+ 
+
+**** Build Finished ****
