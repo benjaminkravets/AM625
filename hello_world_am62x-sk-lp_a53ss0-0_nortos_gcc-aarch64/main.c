@@ -54,24 +54,23 @@ void turn_on_33() {
     }
 
     TCA6424_config(&exp_cfg, 5, TCA6424_MODE_OUTPUT);
-    //TCA6424_setOutput(&exp_cfg, 5, TCA6424_OUT_STATE_LOW);
 
     TCA6424_setOutput(&exp_cfg, 5, TCA6424_OUT_STATE_HIGH);
-    while (1)
-    {
-        TCA6424_setOutput(&exp_cfg, 5, TCA6424_OUT_STATE_HIGH);
-
-        hello_world_main(NULL);
-        for (volatile uint32_t i = 0; i < (1 << 27); i++)
-        {
-        }
-        TCA6424_setOutput(&exp_cfg, 5, TCA6424_OUT_STATE_LOW);
-
-        hello_world_main(NULL);
-        for (volatile uint32_t i = 0; i < (1 << 27); i++)
-        {
-        }
-    }
+//    while (1)
+//    {
+//        TCA6424_setOutput(&exp_cfg, 5, TCA6424_OUT_STATE_HIGH);
+//
+//        hello_world_main(NULL);
+//        for (volatile uint32_t i = 0; i < (1 << 27); i++)
+//        {
+//        }
+//        TCA6424_setOutput(&exp_cfg, 5, TCA6424_OUT_STATE_LOW);
+//
+//        hello_world_main(NULL);
+//        for (volatile uint32_t i = 0; i < (1 << 27); i++)
+//        {
+//        }
+//    }
 }
 
 int main()
