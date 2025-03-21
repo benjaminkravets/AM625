@@ -1,3 +1,6 @@
-2025/03/17-21:31:29.095 7b4 Reusing MANIFEST C:\Users\bakra\Desktop\AM625\.jxbrowser.userdata\Default\Local Storage\leveldb/MANIFEST-000001
-2025/03/17-21:31:29.111 7b4 Recovering log #15
-2025/03/17-21:31:29.112 7b4 Reusing old log C:\Users\bakra\Desktop\AM625\.jxbrowser.userdata\Default\Local Storage\leveldb/000015.log 
+2025/03/20-20:50:20.410 5e6c Reusing MANIFEST C:\Users\bakra\Desktop\AM625\.jxbrowser.userdata\Default\Local Storage\leveldb/MANIFEST-000001
+2025/03/20-20:50:20.411 5e6c Recovering log #22
+2025/03/20-20:50:20.412 5e6c Reusing old log C:\Users\bakra\Desktop\AM625\.jxbrowser.userdata\Default\Local Storage\leveldb/000022.log 
+2025/03/20-20:50:53.537 ac34 Level-0 table #26: started
+2025/03/20-20:50:53.542 ac34 Level-0 table #26: 31561 bytes OK
+2025/03/20-20:50:53.543 ac34 Delete type=0 #22
