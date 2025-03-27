@@ -36,6 +36,7 @@
 #include "ti_drivers_open_close.h"
 #include "ti_board_open_close.h"
 
+#include "drivers/watchdog.h"
 void empty_main(void *args);
 
 uint32_t led_state = 0;
@@ -56,9 +57,17 @@ void h17_callback(void *args) {
         GPIO_pinWriteLow(baseAddr, CONFIG_GPIO0_H17_PIN);
         led_state = 0;
     }
-    DebugP_log("All tests have passed on a53_core%d !!\r\n",1);
+
 
 }
+
+void watchdogCallback(void * arg)
+{
+    turn_on_h17();
+
+    while(1) {}
+}
+
 
 int main()
 {
@@ -67,6 +76,15 @@ int main()
     System_init();
     Board_init();
 
+    HwiP_Params hwiPrms;
+    status = SystemP_SUCCESS;
+    static HwiP_Object hRtiHwiObject;
+
+    HwiP_Params_init(&hwiPrms);
+    hwiPrms.intNum = CONFIG_WDT0_INTR;
+    hwiPrms.callback = &watchdogCallback;
+    status = HwiP_construct(&hRtiHwiObject, &hwiPrms);
+
     /* Open drivers */
     Drivers_open();
     /* Open flash and board drivers */
@@ -74,10 +92,19 @@ int main()
     DebugP_assert(status==SystemP_SUCCESS);
 
     empty_main(NULL);
-    turn_on_h17();
+    Watchdog_clear(gWatchdogHandle[0]);
 
-    volatile uint32_t a = 0;
-    while (a == 0) {}
+
+
+    while (1)
+    {
+        DebugP_log("Watchdog cleared \r\n");
+        //Watchdog_clear(gWatchdogHandle[0]);
+
+        for (volatile uint32_t i = 0; i < (1 << 27); i++)
+        {
+        }
+    }
 
 
     /* Close board and flash drivers */

@@ -2,8 +2,10 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <linux/gpio.h>
+#include <linux/spi/spi.h>
 #include <sys/ioctl.h>
 #include <string.h>
+
 
 int main() {
     int fd;
