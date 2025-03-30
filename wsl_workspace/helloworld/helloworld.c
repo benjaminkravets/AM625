@@ -7,6 +7,7 @@
 #include <string.h>
 
 
+
 int main() {
     int fd;
     struct gpiohandle_request req;
