@@ -11,6 +11,7 @@ org.eclipse.launchbar.core.descriptorType.default\:dpl_demo_am62x-sk-lp_a53ss0-0
 org.eclipse.launchbar.core.descriptorType.default\:empty_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:hello_world_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:hello_world_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:ipc_notify_echo_am62x-sk-lp_a53ss0-0_freertos_gcc-aarch64/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:test/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:timers_wdt/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:watchdog_interrupt_am62x-sk-lp_a53ss0-0_freertos_gcc-aarch64/activeLaunchMode=run

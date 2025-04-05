@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>low_power</name>
+	<name>dpl_demo_am62x-sk-lp_a53ss0-0_nortos_gcc-aarch64</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -28,7 +28,7 @@
 		<link>
 			<name>README.html</name>
 			<type>1</type>
-			<locationURI>MCU_PLUS_SDK_PATH/docs/api_guide_am62x/EXAMPLES_EMPTY.html</locationURI>
+			<locationURI>MCU_PLUS_SDK_PATH/docs/api_guide_am62x/EXAMPLES_KERNEL_DPL_DEMO.html</locationURI>
 		</link>
 	</linkedResources>
 	<variableList>
