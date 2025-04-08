@@ -1,24 +1,9 @@
-2025/04/03-17:45:40.576 2678 Reusing MANIFEST C:\Users\bakra\Desktop\AM625\.jxbrowser.userdata\Default\Local Storage\leveldb/MANIFEST-000001
-2025/04/03-17:45:40.578 2678 Recovering log #100
-2025/04/03-17:45:40.579 2678 Reusing old log C:\Users\bakra\Desktop\AM625\.jxbrowser.userdata\Default\Local Storage\leveldb/000100.log 
-2025/04/04-20:16:46.001 dec Level-0 table #104: started
-2025/04/04-20:16:46.005 dec Level-0 table #104: 27075 bytes OK
-2025/04/04-20:16:46.007 dec Delete type=0 #100
-2025/04/04-20:16:46.008 dec Compacting 4@0 + 1@1 files
-2025/04/04-20:16:46.013 dec Generated table #105@0: 20 keys, 33349 bytes
-2025/04/04-20:16:46.013 dec Compacted 4@0 + 1@1 files => 33349 bytes
-2025/04/04-20:16:46.014 dec compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/04/04-20:16:46.015 dec Delete type=2 #94
-2025/04/04-20:16:46.015 dec Delete type=2 #96
-2025/04/04-20:16:46.015 dec Delete type=2 #98
-2025/04/04-20:16:46.015 dec Delete type=2 #101
-2025/04/04-20:16:46.016 dec Delete type=2 #104
-2025/04/04-20:16:55.715 d6cc Level-0 table #107: started
-2025/04/04-20:16:55.723 d6cc Level-0 table #107: 18382 bytes OK
-2025/04/04-20:16:55.725 d6cc Delete type=0 #103
-2025/04/04-20:27:03.332 d274 Level-0 table #109: started
-2025/04/04-20:27:03.337 d274 Level-0 table #109: 18384 bytes OK
-2025/04/04-20:27:03.338 d274 Delete type=0 #106
-2025/04/04-20:27:14.067 d6cc Level-0 table #111: started
-2025/04/04-20:27:14.071 d6cc Level-0 table #111: 18243 bytes OK
-2025/04/04-20:27:14.072 d6cc Delete type=0 #108
+2025/04/05-18:27:48.080 7c5c Reusing MANIFEST C:\Users\bakra\Desktop\AM625\.jxbrowser.userdata\Default\Local Storage\leveldb/MANIFEST-000001
+2025/04/05-18:27:48.081 7c5c Recovering log #160
+2025/04/05-18:27:48.081 7c5c Reusing old log C:\Users\bakra\Desktop\AM625\.jxbrowser.userdata\Default\Local Storage\leveldb/000160.log 
+2025/04/05-18:46:49.245 7c5c Level-0 table #164: started
+2025/04/05-18:46:49.251 7c5c Level-0 table #164: 20528 bytes OK
+2025/04/05-18:46:49.253 7c5c Delete type=0 #160
+2025/04/05-18:47:49.242 5a8c Level-0 table #166: started
+2025/04/05-18:47:49.246 5a8c Level-0 table #166: 21286 bytes OK
+2025/04/05-18:47:49.247 5a8c Delete type=0 #163

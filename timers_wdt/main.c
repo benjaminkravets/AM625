@@ -99,7 +99,7 @@ int main()
     while (1)
     {
         DebugP_log("Watchdog cleared \r\n");
-        //Watchdog_clear(gWatchdogHandle[0]);
+        Watchdog_clear(gWatchdogHandle[0]);
 
         for (volatile uint32_t i = 0; i < (1 << 27); i++)
         {

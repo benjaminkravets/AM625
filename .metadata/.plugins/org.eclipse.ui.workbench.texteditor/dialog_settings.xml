@@ -8,6 +8,7 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="start"/>
 			<item value="tim"/>
 			<item value="I2C_Transaction_init"/>
 			<item value="I2C_Memory_Transaction_init"/>
@@ -22,7 +23,6 @@
 			<item value="transaction_init"/>
 			<item value="I2C_transfer"/>
 			<item value="i2c_par"/>
-			<item value="i2c_ par"/>
 		</list>
 		<list key="replacehistory">
 		</list>
