@@ -2,10 +2,10 @@
   {
     "name": "MCU_PLUS_SDK_AM62x",
     "displayName": "MCU+ SDK for AM62x",
-    "version": "10.01.00",
-    "path": "C:\\ti\\mcu_plus_sdk_am62x_10_01_00_33\\.metadata\\product.json",
+    "version": "11.00.00",
+    "path": "C:\\ti\\mcu_plus_sdk_am62x_11_00_00_16\\.metadata\\product.json",
     "contexts": {
-      "AM62x": [
+      "AM625SIP_FCBGA \\(AMK\\)_AM625SIP-L|AM620-Q1_FCBGA \\(AMC\\)_AM6201-G|AM620-Q1_FCBGA \\(AMC\\)_AM6202-G|AM620-Q1_FCBGA \\(AMC\\)_AM6204-G|AM625-Q1_FCBGA \\(AMC\\)_AM6252-G|AM625-Q1_FCBGA \\(AMC\\)_AM6254-G|AM625_FCBGA \\(ALW\\)_AM6251-G|AM625_FCBGA \\(ALW\\)_AM6252-C|AM625_FCBGA \\(ALW\\)_AM6252-G|AM625_FCBGA \\(ALW\\)_AM6254-C|AM625_FCBGA \\(ALW\\)_AM6254-G|AM623_FCBGA \\(ALW\\)_AM6231-G|AM623_FCBGA \\(ALW\\)_AM6232-C|AM623_FCBGA \\(ALW\\)_AM6232-G|AM623_FCBGA \\(ALW\\)_AM6234-C|AM623_FCBGA \\(ALW\\)_AM6234-G": [
         "m4fss0-0",
         "r5fss0-0",
         "a53ss0-0",
@@ -13,7 +13,7 @@
         "a53ss1-0",
         "a53ss1-1"
       ],
-      "AM62SIP": [
+      "AM625SIP_FCBGA \\(AMK\\)_AM625SIP-L": [
         "m4fss0-0",
         "r5fss0-0",
         "a53ss0-0",
@@ -22,6 +22,33 @@
         "a53ss1-1"
       ]
     },
+    "referenceDesigns": [],
+    "documentationPath": "../docs"
+  },
+  {
+    "name": "MCU_PLUS_SDK_AM62x",
+    "displayName": "MCU+ SDK for AM62x",
+    "version": "10.01.00",
+    "path": "C:\\ti\\mcu_plus_sdk_am62x_10_01_00_33\\.metadata\\product.json",
+    "contexts": {
+      "AM625SIP_FCBGA \\(AMK\\)_AM625SIP-L|AM620-Q1_FCBGA \\(AMC\\)_AM6201-G|AM620-Q1_FCBGA \\(AMC\\)_AM6202-G|AM620-Q1_FCBGA \\(AMC\\)_AM6204-G|AM625-Q1_FCBGA \\(AMC\\)_AM6252-G|AM625-Q1_FCBGA \\(AMC\\)_AM6254-G|AM625_FCBGA \\(ALW\\)_AM6251-G|AM625_FCBGA \\(ALW\\)_AM6252-C|AM625_FCBGA \\(ALW\\)_AM6252-G|AM625_FCBGA \\(ALW\\)_AM6254-C|AM625_FCBGA \\(ALW\\)_AM6254-G|AM623_FCBGA \\(ALW\\)_AM6231-G|AM623_FCBGA \\(ALW\\)_AM6232-C|AM623_FCBGA \\(ALW\\)_AM6232-G|AM623_FCBGA \\(ALW\\)_AM6234-C|AM623_FCBGA \\(ALW\\)_AM6234-G": [
+        "m4fss0-0",
+        "r5fss0-0",
+        "a53ss0-0",
+        "a53ss0-1",
+        "a53ss1-0",
+        "a53ss1-1"
+      ],
+      "AM625SIP_FCBGA \\(AMK\\)_AM625SIP-L": [
+        "m4fss0-0",
+        "r5fss0-0",
+        "a53ss0-0",
+        "a53ss0-1",
+        "a53ss1-0",
+        "a53ss1-1"
+      ]
+    },
+    "referenceDesigns": [],
     "documentationPath": "../docs"
   }
 ]

@@ -1,3 +1,4 @@
 rm helloworld
 bash -c "${CROSS_COMPILE_64}gcc --sysroot=${SYSROOT_64} helloworld.c -o helloworld";
-powershell.exe -c "scp.exe -P 22 C:\Users\bakra\Desktop\AM625\wsl_workspace\helloworld\helloworld root@192.168.137.65:/home/ben/ ; ssh root@192.168.137.65 /home/ben/helloworld"
+powershell.exe -c "scp.exe -P 22 C:\Users\bakra\Desktop\AM625\wsl_workspace\helloworld\helloworld root@192.168.137.59:/home/ben/ ; 
+ssh root@192.168.137.59 /home/ben/helloworld"

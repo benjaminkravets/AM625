@@ -38,6 +38,8 @@
 
 #include <kernel/dpl/CacheP.h>
 
+#include <kernel/dpl/AddrTranslateP.h>
+
 void hello_world_main(void *args);
 
 void cache_operation() {
@@ -64,11 +66,11 @@ int main()
     hello_world_main(NULL);
 
     //uint32_t baseAddr = (uint32_t) AddrTranslateP_getLocalAddr(CONFIG_TIMER0_BASE_ADDR);
+    TimerP_start(gTimerBaseAddr[CONFIG_TIMER0]);
 
     while (1)
     {
-
-        uint32_t a = TimerP_getCount(CONFIG_TIMER0_BASE_ADDR);
+        uint32_t a = TimerP_getCount(gTimerBaseAddr[CONFIG_TIMER0]);
         DebugP_log("correect All tests have passed on a53_core%i !!\r\n", a);
         //Watchdog_clear(gWatchdogHandle[0]);
 
