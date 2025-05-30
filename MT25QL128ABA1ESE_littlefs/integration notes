@@ -1,0 +1,2 @@
+1. Add littlefs source/headers to littefs and include in build
+2. Enable I2C1 to communicate with TCA6424 to enable 3V3_EN
