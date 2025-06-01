@@ -38,6 +38,9 @@
 
 #include "ioexp_tca6424.h"
 #include "littlefs_app_driver.h"
+#include "string.h"
+
+#include "MT25Q.h"
 
 #define APP_MCSPI_MSGSIZE (10)
 
@@ -65,31 +68,6 @@ void vcc_en() {
   TCA6424_close(&exp_cfg);
 }
 
-void spi_try() {
-    int32_t             transferOK;
-    MCSPI_Transaction   spiTransaction;
-    uint8_t             transmitBuffer[APP_MCSPI_MSGSIZE] = {0x9e};
-    uint8_t             receiveBuffer[APP_MCSPI_MSGSIZE] = {0};
-
-    /* Fill in transmitBuffer */
-    spiTransaction.channel  = 0U;
-    spiTransaction.dataSize  = 8U;
-    spiTransaction.csDisable = TRUE;
-    spiTransaction.count    = APP_MCSPI_MSGSIZE;
-    spiTransaction.txBuf    = (void *)transmitBuffer;
-    spiTransaction.rxBuf    = (void *)receiveBuffer;
-    spiTransaction.args     = NULL;
-
-    /* Initiate transfer */
-    transferOK = MCSPI_transfer(gMcspiHandle[0], &spiTransaction);
-    if((SystemP_SUCCESS != transferOK) ||
-       (MCSPI_TRANSFER_COMPLETED != spiTransaction.status))
-    {
-        /* MCSPI transfer failed!! */
-        DebugP_log("%i %i \r\n", transferOK, spiTransaction.status);
-        DebugP_assert(FALSE);
-    }
-}
 
 int main() {
   int32_t status = SystemP_SUCCESS;
@@ -105,11 +83,34 @@ int main() {
 
   vcc_en();
   empty_main(NULL);
-  //littlefs_main();
+  littlefs_main();
+
+  //uint8_t * MT25Q_read_buffer = malloc(256);
+
+  #define READSIZE (256)
+  uint8_t read_write_buffer[READSIZE];
+  uint32_t x = 0;
+  for (uint32_t i = READSIZE - 1 ; i > 0 ; i--) {
+    read_write_buffer[x] = 0;
+    x++;
+  }
+
+  //const struct lfs_config * a = 0;
+
   while (1)
   {
     empty_main(NULL);
-    spi_try();
+    //MT25Q_read_id();
+    //MT25Q_read_memory(a, 0, 0, read_write_buffer, 256);
+    //MT25Q_read_memory(a, 1, 0, read_write_buffer, 256);
+    //MT25Q_read_memory(a, 2, 0, read_write_buffer, 256);
+
+    //MT25Q_prog_memory(a, 0, 0, read_write_buffer, 256);
+    // MT25Q_subsector_erase(0);
+    //MT25Q_subsector_erase(1);
+    // MT25Q_subsector_erase(2);
+    //printf("Yes this works \r\n");
+
     for (volatile uint32_t i = 0; i < (1 << 27); i++)
     {
     }

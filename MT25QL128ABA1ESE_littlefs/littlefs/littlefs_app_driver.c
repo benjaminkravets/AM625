@@ -1,51 +1,62 @@
 #include "littlefs_app_driver.h"
 #include "lfs.h"
+#include "MT25Q.h"
 
 // variables used by the filesystem
 lfs_t lfs;
 lfs_file_t file;
 
-int read (const struct lfs_config *c, lfs_block_t block,
-            lfs_off_t off, void *buffer, lfs_size_t size)
-{
-    printf("read: block %d, offset %d, size %d\n", block, off, size);
-    return 1;
-}
+// int read (const struct lfs_config *c, lfs_block_t block,
+//             lfs_off_t off, void *buffer, lfs_size_t size)
+// {
+//     printf("read: block %d, offset %d, size %d\n", block, off, size);
+//     return 1;
+// }
 
-int prog(const struct lfs_config *c, lfs_block_t block,
-            lfs_off_t off, const void *buffer, lfs_size_t size)
-{
-    printf("prog: block %d, offset %d, size %d\n", block, off, size);
-    return 1;
-}
+// int prog(const struct lfs_config *c, lfs_block_t block,
+//             lfs_off_t off, const void *buffer, lfs_size_t size)
+// {
+//     printf("prog: block %d, offset %d, size %d\n", block, off, size);
+//     return 1;
+// }
 
-int erase(const struct lfs_config *c, lfs_block_t block)
-{
-    printf("erase: block %d\n", block);
-    return 1;
-}
-int sync(const struct lfs_config *c)
-{
-    printf("sync\n");
-    return 1;
-}
+// int erase(const struct lfs_config *c, lfs_block_t block)
+// {
+//     printf("erase: block %d\n", block);
+//     return 1;
+// }
+// int sync(const struct lfs_config *c)
+// {
+//     printf("sync\n");
+//     return 1;
+// }
 
 // configuration of the filesystem is provided by this struct
 const struct lfs_config cfg = {
     // block device operations
-    .read = read,
-    .prog = prog,
-    .erase = erase,
-    .sync = sync,
+    .read = MT25Q_read_memory,
+    .prog = MT25Q_prog_memory,
+    .erase = MT25Q_subsector_erase,
+    .sync = MT25Q_sync,
 
     // block device configuration
+    // .read_size = 16,
+    // .prog_size = 16,
+    // .block_size = 4096,
+    // .block_count = 128,
+    // .cache_size = 16,
+    // .lookahead_size = 16,
+    // .block_cycles = 500,
+
     .read_size = 16,
     .prog_size = 16,
     .block_size = 4096,
-    .block_count = 128,
+    .block_count = 4096,
     .cache_size = 16,
-    .lookahead_size = 16,
+    .lookahead_size = 64,
     .block_cycles = 500,
+
+
 };
 
 // entry point

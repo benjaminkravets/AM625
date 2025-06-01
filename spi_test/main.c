@@ -115,7 +115,7 @@ void UART1_FET_BUF_EN_set()
     TCA6424_close(&exp_cfg);
 }
 
-void spi_try() {
+void spi_read_id() {
     int32_t             transferOK;
     MCSPI_Transaction   spiTransaction;
     uint8_t             transmitBuffer[APP_MCSPI_MSGSIZE] = "0123456789";
@@ -161,7 +161,7 @@ int main()
     while (1)
     {
         empty_main(NULL);
-        spi_try();
+        spi_read_id();
         for (volatile uint32_t i = 0; i < (1 << 27); i++)
         {
         }
