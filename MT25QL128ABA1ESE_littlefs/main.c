@@ -42,7 +42,7 @@
 
 #include "MT25Q.h"
 
-#define APP_MCSPI_MSGSIZE (10)
+
 
 
 void empty_main(void *args);
@@ -95,7 +95,11 @@ int main() {
     x++;
   }
 
-  //const struct lfs_config * a = 0;
+  // char * ptrtest = malloc(256);
+
+  // //const struct lfs_config * a = 0;
+
+  // ptrtest[0] = 'a';
 
   while (1)
   {

@@ -56,6 +56,7 @@
                                     <listOptionValue value="SOC_AM62X"/>
                                     <listOptionValue value="AMP_A53"/>
                                     <listOptionValue value="_DEBUG_=1"/>
+                                    <listOptionValue value="LFS_YES_TRACE"/>
                                 </option>
                                 <option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_9.0.compilerID.MCPU.791809716" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_9.0.compilerID.MCPU" value="cortex-a53+fp+simd" valueType="string"/>
                                 <option id="com.ti.ccstudio.buildDefinitions.TMS470_GNU_9.0.compilerID.OTHER_FLAGS.1843672608" superClass="com.ti.ccstudio.buildDefinitions.TMS470_GNU_9.0.compilerID.OTHER_FLAGS" valueType="stringList">

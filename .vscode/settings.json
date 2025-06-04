@@ -1,0 +1,5 @@
+{
+    "files.associations": {
+        "littlefs_app_driver.h": "c"
+    }
+}

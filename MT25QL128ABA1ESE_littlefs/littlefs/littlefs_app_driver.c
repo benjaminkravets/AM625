@@ -1,4 +1,7 @@
 #include "littlefs_app_driver.h"
+
+
+
 #include "lfs.h"
 #include "MT25Q.h"
 
@@ -6,30 +9,7 @@
 lfs_t lfs;
 lfs_file_t file;
 
-// int read (const struct lfs_config *c, lfs_block_t block,
-//             lfs_off_t off, void *buffer, lfs_size_t size)
-// {
-//     printf("read: block %d, offset %d, size %d\n", block, off, size);
-//     return 1;
-// }
 
-// int prog(const struct lfs_config *c, lfs_block_t block,
-//             lfs_off_t off, const void *buffer, lfs_size_t size)
-// {
-//     printf("prog: block %d, offset %d, size %d\n", block, off, size);
-//     return 1;
-// }
-
-// int erase(const struct lfs_config *c, lfs_block_t block)
-// {
-//     printf("erase: block %d\n", block);
-//     return 1;
-// }
-// int sync(const struct lfs_config *c)
-// {
-//     printf("sync\n");
-//     return 1;
-// }
 
 // configuration of the filesystem is provided by this struct
 const struct lfs_config cfg = {
@@ -59,6 +39,19 @@ const struct lfs_config cfg = {
 
 };
 
+void ls_dir(){
+    struct lfs_info info;
+    lfs_dir_t dir;
+
+    printf("ls: \r\n");
+
+    lfs_dir_open(&lfs, &dir, "/test");
+    while (lfs_dir_read(&lfs, &dir, &info) > 0) {
+        printf("%s \r\n", info.name);
+    }
+    lfs_dir_close(&lfs, &dir);
+}
+
 // entry point
 int littlefs_main(void)
 {
@@ -85,6 +78,16 @@ int littlefs_main(void)
 
     // remember the storage is not updated until the file is closed successfully
     lfs_file_close(&lfs, &file);
+
+    //begin added
+
+    volatile int a = lfs_mkdir(&lfs, "/test");
+
+    a = lfs_file_open(&lfs, &file, "/test/test_file", LFS_O_RDWR | LFS_O_CREAT);
+    (void) a;
+    ls_dir();
+
+    //end added
 
     // release any resources we were using
     lfs_unmount(&lfs);

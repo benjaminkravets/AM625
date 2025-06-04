@@ -1,0 +1,20 @@
+1. ADC081C021
+    1.1. 
+
+MT25QL128ABA1ESE_littlefs
+littlefs 2.11
+
+build steps:
+1. Add littlefs source/headers to littefs and include in build
+2. Enable I2C1 to communicate with TCA6424 to enable 3V3_EN
+3. add spi driver support to MT25Q and include in build
+
+spi_try- test SPI2 on user expansion header pins 38/40?
+
+MT25Q - 
+Each device in a system should have the VCC line decoupled by a suitable capacitor (typically 100nF) close to the package pins.
+
+When using single and dual I/O commands
+on these parts, DQ3 must be driven HIGH by the host, or an external pull-up resistor
+must be placed on the PCB, in order to avoid allowing the HOLD# or RESET# input to
+float.

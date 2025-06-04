@@ -33,7 +33,7 @@ void MT25Q_read_id() {
 }
 
 int MT25Q_read_memory(const struct lfs_config *c, lfs_block_t block, lfs_off_t off, void * buffer, lfs_size_t size) {
-    printf("MT25Q_read_memory block %d off %d size %d\n", block, off, size);
+    //printf("MT25Q_read_memory block %d off %d size %d\n", block, off, size);
     int32_t             transferOK;
     MCSPI_Transaction   spiTransaction;
     uint8_t             transmitBuffer[4] = {0};
